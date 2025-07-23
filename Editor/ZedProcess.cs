@@ -37,7 +37,7 @@ namespace UnityZed
                 args.Append($"\"{m_ProjectPath.ToString()}\"");
                 args.Append(" --command ");
                 args.Append($"\"{m_ExecPath.ToString()}\"");
-                args.Append(" -- ");
+                args.Append(" ");
             }
 
             // always add project path
